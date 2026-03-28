@@ -19,7 +19,7 @@ CORS(app)
 # On Render: set OPENROUTER_API_KEY in the dashboard Environment tab
 OPENROUTER_API_KEY = os.environ.get(
     "OPENROUTER_API_KEY",
-    "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"
+    ""
 )
 MODEL          = "google/gemini-2.0-flash-001"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
